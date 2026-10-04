@@ -12,7 +12,7 @@ plot(x, y,
      lwd = 2,
      main = "Default Scale", 
      xlab = "x", 
-     ylab = "y")
+     ylab = "f(x)")
 grid()
 
 # 2. Log-Log Plot
@@ -23,7 +23,7 @@ plot(x, y,
      log = "xy", 
      main = "Log-Log Scale", 
      xlab = "x (log scale)", 
-     ylab = "y (log scale)")
+     ylab = "f(x) (log scale)")
 grid()
 
 # Reset layout
